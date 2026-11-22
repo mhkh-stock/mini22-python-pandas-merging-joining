@@ -1,0 +1,7 @@
+employee_id,employee_name,role,manager_id,manager_name,is_matched
+E01,Ayesha Khan,Owner,,,False
+E02,Bilal Ahmed,Sales Lead,E01,Ayesha Khan,True
+E03,Fatima Noor,Sales Assistant,E01,Ayesha Khan,True
+E04,Usman Tariq,Warehouse Lead,E02,Bilal Ahmed,True
+E05,Zainab Ali,Support Agent,E02,Bilal Ahmed,True
+E06,Hassan Raza,Delivery Rider,E99,,False

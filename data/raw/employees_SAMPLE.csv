@@ -1,0 +1,7 @@
+employee_id,employee_name,role,manager_id
+E01,Ayesha Khan,Owner,
+E02,Bilal Ahmed,Sales Lead,E01
+E03,Fatima Noor,Sales Assistant,E01
+E04,Usman Tariq,Warehouse Lead,E02
+E05,Zainab Ali,Support Agent,E02
+E06,Hassan Raza,Delivery Rider,E99

@@ -1,0 +1,36 @@
+order_id,customer_id,order_date,customer_name,city,signup_date,match_status
+1,1,2026-01-08,Ayesha Khan,Lahore,2025-11-02,both
+2,1,2026-02-14,Ayesha Khan,Lahore,2025-11-02,both
+3,1,2026-04-02,Ayesha Khan,Lahore,2025-11-02,both
+4,2,2026-01-15,Bilal Ahmed,Karachi,2025-12-10,both
+5,2,2026-03-20,Bilal Ahmed,Karachi,2025-12-10,both
+6,2,2026-05-11,Bilal Ahmed,Karachi,2025-12-10,both
+7,3,2026-01-22,Fatima Noor,Islamabad,2026-01-05,both
+8,3,2026-02-28,Fatima Noor,Islamabad,2026-01-05,both
+9,3,2026-06-05,Fatima Noor,Islamabad,2026-01-05,both
+10,4,2026-02-05,Usman Tariq,Lahore,2026-01-20,both
+11,4,2026-04-18,Usman Tariq,Lahore,2026-01-20,both
+12,5,2026-02-12,Zainab Ali,Karachi,2026-02-03,both
+13,5,2026-05-25,Zainab Ali,Karachi,2026-02-03,both
+14,6,2026-03-03,Hassan Raza,Faisalabad,2026-02-15,both
+15,6,2026-03-29,Hassan Raza,Faisalabad,2026-02-15,both
+16,6,2026-06-12,Hassan Raza,Faisalabad,2026-02-15,both
+17,7,2026-03-15,Maryam Iqbal,Islamabad,2026-03-01,both
+18,7,2026-04-22,Maryam Iqbal,Islamabad,2026-03-01,both
+19,8,2026-01-30,Omar Sheikh,Lahore,2026-03-10,both
+20,8,2026-05-08,Omar Sheikh,Lahore,2026-03-10,both
+21,9,2026-04-10,Sana Malik,Karachi,2026-03-22,both
+22,9,2026-06-20,Sana Malik,Karachi,2026-03-22,both
+23,10,2026-04-15,Ali Nawaz,Multan,2026-04-05,both
+24,10,2026-05-30,Ali Nawaz,Multan,2026-04-05,both
+25,1,2026-06-18,Ayesha Khan,Lahore,2025-11-02,both
+26,2,2026-06-25,Bilal Ahmed,Karachi,2025-12-10,both
+27,4,2026-06-02,Usman Tariq,Lahore,2026-01-20,both
+28,5,2026-01-19,Zainab Ali,Karachi,2026-02-03,both
+29,7,2026-06-28,Maryam Iqbal,Islamabad,2026-03-01,both
+30,8,2026-02-21,Omar Sheikh,Lahore,2026-03-10,both
+31,9,2026-02-08,Sana Malik,Karachi,2026-03-22,both
+32,3,2026-05-14,Fatima Noor,Islamabad,2026-01-05,both
+33,CUST-05,2026-06-30,,,,left_only
+,11,,Hira Shah,Peshawar,2026-05-02,right_only
+,12,,Danish Iqbal,Quetta,2026-05-19,right_only

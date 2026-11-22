@@ -1,0 +1,6 @@
+return_id,order_id,product_id,qty_returned,reason
+1,6,2,1,faulty keys
+2,15,1,1,changed mind
+3,22,8,1,damaged in transit
+4,3,4,1,too big
+5,99,1,1,no such order

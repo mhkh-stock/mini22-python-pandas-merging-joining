@@ -1,0 +1,11 @@
+technique,input_rows_left,input_rows_right,output_rows,matched_rows,unmatched_rows,notes
+01_inner_merge,55,10,59,59,2,"6 keyboard lines matched the duplicate product 2 twice (fan-out): naive revenue PKR 400,300 overstates the matched total by PKR 51,000; 2 lines dropped (no product match)."
+02_left_merge,55,9,55,53,2,"All 55 lines kept; unmatched lines [54, 55] (PKR 17,500) have no product match."
+03_outer_merge,55,9,56,53,3,"Orphan product: Bluetooth Speaker (never sold). Orphan lines: 54 (product 99), 55 (product P-03)."
+04_multikey_merge,5,55,5,4,1,"Returns matched on (order_id, product_id); PKR 43,500 returned; orphan return 5 (order 99) matches nothing."
+05_indicator_merge,33,12,35,32,3,"left_only = order 33 (customer CUST-05); right_only = customers 11, 12 (never ordered)."
+06_concat_monthly,53,6,52,52,1,6 monthly files stacked to 53 rows; line [22] arrived twice (March + April) and was dropped once.
+07_map_lookup,55,9,55,53,2,"map() gives NaN (not an error) for unknown keys: lines 54, 55 unmapped."
+08_merge_asof,52,12,52,52,0,11 lines sold at a price that had already changed; total diff PKR -100.
+09_self_join,6,6,6,4,2,"Unmatched: E01 (owner, no manager) and E06 (manager E99 does not exist)."
+10_cross_join_guard,55,9,0,0,0,"Cartesian size 55 x 9 = 495 rows exceeds the guard cap 200 — BLOCKED, never materialised."
