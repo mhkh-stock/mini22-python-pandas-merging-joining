@@ -1,6 +1,6 @@
 # Mini #22 — Python pandas Merging, Joining & Lookup Pack
 
-**Status:** built, verified — publish pending
+**Status:** built, verified — published 22 Nov 2026
 
 **SAMPLE / DEMO data only.** Fictional store, fictional sales,
 fictional numbers. Never claimed as real client work.
@@ -187,4 +187,4 @@ data, and the generator re-run byte-compared for determinism (see
 
 ## Published
 
-Publish pending: https://github.com/mhkh-stock/mini22-python-pandas-merging-joining
+Published 22 Nov 2026: https://github.com/mhkh-stock/mini22-python-pandas-merging-joining
